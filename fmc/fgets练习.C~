@@ -1,0 +1,103 @@
+# include <stdio.h>
+# define NAME 10
+int  jiemian();
+:int jiemian();
+int  input();
+int  chaxun();
+int  xiugai();
+int  dele();
+int  tuichu();
+typedef struct 
+{  
+    int id;
+    char name[NAME];
+    char name;
+    int chengji;
+ 
+}STU;
+ int main ( int  argy , const char *argv[])
+{
+
+    return 0;
+}
+
+
+
+int jiemain()//主界面
+{ 
+    int zhanghao,mima;
+  printf("******************欢迎进入学生管理系统******************");
+  printf("请输入账号:");
+  scanf("%d",&zhanghao);
+  printf("\n");
+  printf ("请输入密码:");
+  scanf ("%d",&mima);
+  if(zhanghao == 123 && mima == 123)
+  {
+    xuanze();
+  }else
+  {
+    jiemain();
+  }
+  return 0;
+}
+
+
+
+
+int xuanze()//选择界面
+{
+ printf("******************欢迎进入学生管理系统******************");
+
+ printf("                1.学生信息的录入                      ");
+ printf("                1.学生信息的录入 \n                   ");
+ printf("                2.学生信息的查询 \n                   ");
+ printf("                3.学生信息的修改 \n                   ");
+ printf("                4.学生信息的删除 \n                   ");
+ printf("                5.学生信息的退出  \n                  ");
+ printf("                1.学生信息的录入  \n                  ");
+ printf("请选择:(0-5)\n");
+ int num;
+ scanf("%d",num);
+ switch (num)
+ {
+   case 1.
+       input();
+       break;
+   case 2.
+       chaxun();
+       break;
+   case 3.
+       xiugai();
+       break    
+   case 4.
+       dele();
+       break;
+   case 5.
+       tuichu();
+   default:
+       jiemian();   
+
+ }
+ return 0;
+}
+
+
+
+int imput()
+{
+
+  return 0;
+}
+int xiugai()
+{
+  return 0;
+}
+int dele()
+{
+  return 0; 
+}
+int ()
+{
+  return 0;
+}
